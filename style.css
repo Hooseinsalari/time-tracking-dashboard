@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1323;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
+    /* align-items: center; */
+    justify-content: center;
+    margin: 50px 100px 0 200px;
+    
+}
+
+.main-dashbord {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.main-dashbord .main-above {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    padding: 25px;
+    height: 265px;
+    margin-top: 20px;
+    
+}
+
+.main-dashbord .main-above .img {
+    width: 90px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.main-dashbord .main-above p {
+    padding: 20px 0 10px 0;
+}
+
+.main-dashbord .main-above h1 {
+    width: 100px;
+}
+
+.main-dashbord .main-footer {
+    padding: 20px;
+    
+}
+
+.main-dashbord .main-footer ul {
+    list-style: none;
+}
+
+.main-dashbord .main-footer ul li {
+    padding: 10px 0 10px 0;
+}
+
+.container .dashbord {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.container .dashbord .work{
+    background-color: hsl(15, 100%, 70%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .play{
+    background-color: hsl(195, 74%, 62%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .study{
+    background-color: hsl(348, 100%, 68%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .exercise{
+    background-color: hsl(145, 58%, 55%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .social{
+    background-color: hsl(264, 64%, 52%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .self{
+    background-color: hsl(43, 84%, 65%);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container .dashbord .general-section .inside-section {
+    background-color: hsl(235, 46%, 20%);
+    color: aliceblue;
+    width: 200px;
+    height: 165px;
+    border-radius: 10px;
+}
+
+.container .dashbord .general-section img {
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    top: 0px;
+}
+
+.container .dashbord .general-section .inside-section {
+    position: absolute;
+    top: 35px;
+    padding: 20px;
+}
+
+.inside-section #section-above {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.inside-section #section-above p{
+    font-size: 25px;
+}
+
+.inside-section h1 {
+    padding-bottom: 15px;
+}
+
+.inside-section p {
+    font-size: 15px;
+}
+
+
